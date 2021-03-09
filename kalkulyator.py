@@ -1,12 +1,12 @@
 lang = 'EN'
-lang_opt = input('Enter L to change language or other key to continue:  ')
+lang_opt = input('Enter L to change language or other key to continue:   ')
 while lang_opt == 'l':
     if lang == 'RU':
         lang = 'EN'
-        lang_opt = input('Enter L to change language or other key to continue:  ')
+        lang_opt = input('Enter L to change language or other key to continue:   ')
     else:
         lang = 'RU'
-        lang_opt = input('Введите L, чтобы сменить язык, или любую клавишу, чтобы продолжить:  ')
+        lang_opt = input('Введите L, чтобы сменить язык, или любую клавишу, чтобы продолжить:   ')
 if lang == 'EN':
     f = 'Enter first number:  '
     o = 'Enter operation (+,-, /, *):  '
